@@ -1,0 +1,72 @@
+#main {
+  background-color: linear-gradient rgba(19, 13, 13, 0.274),
+    rgba(19, 13, 13, 0.692);
+  color: rgb(241, 240, 240);
+  text-align: center;
+  line-height: 2;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#title {
+  text-align: center;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+#shape {
+  height: 350px;
+  /* background: #000; */
+}
+#story {
+  text-align: center;
+  line-height: 2;
+  background-color: aqua;
+}
+#study {
+  text-align: center;
+}
+#image {
+  position: absolute;
+  height: 150px;
+  border-radius: 50%;
+  right: 44%;
+  width: 150px;
+  z-index: 0;
+  top: 20%;
+}
+#image:hover {
+  transform: scale(1.5);
+}
+
+figcaption {
+  position: relative;
+  top: 250px;
+}
+h2 {
+  text-decoration: underline solid rgb(197, 191, 191);
+}
+#title,
+a, h2 {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: overline solid rgb(141, 49, 49) 3px;
+}
+/* a:focus{
+  color: rgb(160, 15, 63);
+  text-decoration:overline solid rgb(190, 190, 190); 
+} */
+a:active {
+  color: rgb(255, 255, 255);
+  text-decoration: overline solid rgb(161, 60, 60);
+}
+a {
+  text-decoration: none;
+}
+#sep {
+  padding-top: 50px;
+}
