@@ -1,6 +1,8 @@
+body{ 
+  background: rgb(0, 0, 0);
+ }
 #main {
-  background-color: linear-gradient rgba(19, 13, 13, 0.274),
-    rgba(19, 13, 13, 0.692);
+  /* background:linear-gradient(to bottom,  rgba(0, 0, 0, 0.939), rgba(0, 0, 0, 0.555)); */
   color: rgb(241, 240, 240);
   text-align: center;
   line-height: 2;
@@ -15,52 +17,55 @@ img {
   height: 100%;
   width: 100%;
 }
-#shape {
-  height: 350px;
-  /* background: #000; */
-}
+
 #story {
+  border-radius: 50px;
   text-align: center;
   line-height: 2;
-  background-color: aqua;
+  background-color: rgb(16, 199, 199);
+}
+
+.story {
+  border-radius: 50px;
+  text-align: center;
+  line-height: 2;
+  background-color: rgb(16, 199, 199);
 }
 #study {
   text-align: center;
 }
+#img-div{
+  text-align: center;
+}
 #image {
-
-  position: absolute;
-  height: 150px;
-  border-radius: 50%;
-  right: 44%;
-  width: 150px;
-  z-index: 0;
-  top: 20%;
+  padding:Opx;
+  position: relative;
+  right: -15%;
+  left: auto;
+  height: 100%;
+  width: 100%;
 }
 #image:hover {
-  transform: scale(1.5);
+  transform: scale(.95);
 }
 
 figcaption {
-  position: relative;
-  top: 250px;
+  display: none;
 }
 h2 {
   text-decoration: underline solid rgb(197, 191, 191);
 }
 #title,
-a, h2 {
+a,
+h2 {
   color: white;
   text-decoration: none;
 }
 a:hover {
+  cursor: pointer;
   color: rgb(255, 255, 255);
   text-decoration: overline solid rgb(141, 49, 49) 3px;
 }
-/* a:focus{
-  color: rgb(160, 15, 63);
-  text-decoration:overline solid rgb(190, 190, 190); 
-} */
 a:active {
   color: rgb(255, 255, 255);
   text-decoration: overline solid rgb(161, 60, 60);
@@ -73,8 +78,25 @@ a {
 }
 
 #image {
-    max-width: 70%;
-    height: auto;
-    display: block;
-  }
+  max-width: 70%;
+  height: auto;
+  display: block;
+}
 
+#author{
+  height:40px;
+  background:rgb(153, 97, 97);
+  left:0px;
+  right:0px;
+  position:absolute;
+  color:black;
+  border:1px solid white;
+}
+#end{
+  color:rgb(139, 27, 27);
+}
+
+.changes{
+  font-style:italic;
+  font-size:1.65em;
+}
